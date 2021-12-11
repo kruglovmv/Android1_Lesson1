@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Lesson1</string>
+    <string name="text_text_view">Android1. Lesson1</string>
+    <string name="ok_button">Ок!</string>
+    <string name="default_edit_text">Напиши здесь текст!</string>
+    <string name="text_switch_color">Переключи цвет введенного текста</string>
+    <string name="text_check_box">Измени шрифт текста</string>
+    <string name="next_button">next</string>
+    <string name="back_button">Back</string>
+    <string name="title_string_note">Note</string>
+    <string name="title_string_birthday">BirthDay</string>
+    <string name="title_string_postal_address">Postal Address</string>
+    <string name="title_string_email_address">Email Address</string>
+    <string name="title_string_password">Password</string>
+    <string name="title_string_number">number</string>
+    <string name="title_string_telephone">Telephone</string>
+    <string name="title_string_second_name">Second Name</string>
+    <string name="title_string_first_name">First Name</string>
+    <string name="title_string_notepad">Notepad</string>
 </resources>

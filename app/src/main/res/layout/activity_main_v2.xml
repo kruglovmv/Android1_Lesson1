@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01579B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#858484"
+            android:gravity="center"
+            android:text="@string/title_string_notepad"
+            android:textSize="@dimen/sizeTextNormal" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_first_name"
+            android:inputType="text"
+            android:textSize="@dimen/sizeTextNormal" />
+
+        <EditText
+            android:id="@+id/secondName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_second_name"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/sizeTextNormal" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_telephone"
+            android:inputType="phone"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_number"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="@dimen/sizeTextSmall"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <EditText
+            android:id="@+id/emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_email_address"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <EditText
+            android:id="@+id/postalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_postal_address"
+            android:inputType="textPostalAddress"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_birthday"
+            android:inputType="date"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:autofillHints=""
+            android:background="#88F8FDF6"
+            android:ems="10"
+            android:hint="@string/title_string_note"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/sizeTextNormal" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#88F8FDF6"
+            android:textSize="@dimen/sizeTextSmall" />
+
+        <Button
+            android:id="@+id/backButtonActivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginFromTopView"
+            android:backgroundTint="#88F8FDF6"
+            android:text="@string/back_button"
+            android:textSize="@dimen/sizeTextNormal" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
