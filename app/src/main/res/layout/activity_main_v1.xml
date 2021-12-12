@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01579B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/marginFromBorder"
+        android:text="@string/text_text_view"
+        android:background="#858484"
+        android:textSize="@dimen/sizeTextNormal"
+        android:textAlignment="center"
+        android:gravity="center"
+        tools:ignore="Suspicious0dp" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/marginFromBorder"
+        android:layout_weight="3"
+        android:background="#88F8FDF6"
+        android:gravity="center"
+        android:hint="@string/default_edit_text"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sizeTextNormal"
+        tools:ignore="Suspicious0dp"
+        android:autofillHints="" />
+
+    <Switch
+        android:id="@+id/switchTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/marginFromBorder"
+        android:background="#88F8FDF6"
+        android:gravity="center"
+        android:text="@string/text_switch_color"
+        android:textSize="@dimen/sizeTextSmall"
+        tools:ignore="Suspicious0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        tools:ignore="Suspicious0dp"
+        android:background="@color/teal_200">
+
+
+        <ToggleButton
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:background="#88F8FDF6"
+            android:layout_gravity="center"
+            tools:ignore="Suspicious0dp"
+            android:textSize="@dimen/sizeTextNormal"/>
+
+        <CheckBox
+            android:id="@+id/switchTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/marginFromBorder"
+            android:background="#88F8FDF6"
+            android:layout_gravity="center"
+            android:text="@string/text_check_box"
+            android:textSize="@dimen/sizeTextSmall"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/nextButtonActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/marginFromTopView"
+        android:layout_gravity="center"
+        android:text="@string/next_button"
+        android:textSize="@dimen/sizeTextNormal"
+        tools:ignore="Suspicious0dp"
+        android:backgroundTint="#88F8FDF6"/>
+</LinearLayout>
