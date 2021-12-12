@@ -14,7 +14,7 @@ import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
     Button nextButton;
-    Switch switchTextColor = findViewById(R.id.switchTextColor);
+    Switch switchTextColor;
     EditText textForChange;
     ToggleButton buttonOff;
     CheckBox switchTextStyle;
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         nextButton = findViewById(R.id.nextButtonActivity1);
         nextButton.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, SecondActivity.class)));
         textForChange = findViewById(R.id.inputText);
+        switchTextColor = findViewById(R.id.switchTextColor);
         switchTextColor.setOnClickListener(view -> {
             if (switchTextColor.isChecked()) textForChange.setTextColor(Color.RED);
             else textForChange.setTextColor(Color.BLACK);
